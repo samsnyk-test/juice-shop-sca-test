@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: samsnyk/dynamic-sca-ignores
-        ref: master
+        ref: main
         path: snyk-dynamic-sca-ignores
         token: ${{ secrets.DYNAMIC_SCA_REPO_TOKEN }}
 
