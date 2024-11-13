@@ -24,7 +24,7 @@ jobs:
         repository: samsnyk/dynamic-sca-ignores
         ref: master
         path: snyk-dynamic-sca-ignores
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.DYNAMIC_SCA_REPO_TOKEN }}
 
     - name: Install dependencies
       run: |
