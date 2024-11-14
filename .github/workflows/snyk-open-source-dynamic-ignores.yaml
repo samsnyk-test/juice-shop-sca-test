@@ -41,4 +41,7 @@ jobs:
         
     - name: Cleanup external repository
       run: |
+        pwd
+        ls -la
+        cat .snyk
         rm -rf snyk-dynamic-sca-ignores
