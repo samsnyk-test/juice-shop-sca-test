@@ -37,7 +37,7 @@ jobs:
         cd snyk-dynamic-sca-ignores
         pwd
         ls -la
-        python main.py generate ${{github.workspace}}/templates/tenants ${{github.workspace}}/../.snyk tenant-a group-a organization-a target-a
+        python main.py generate ${{github.workspace}}/snyk-dynamic-sca-ignores/templates/tenants ${{github.workspace}}/.snyk tenant-a group-a organization-a target-a
         
     - name: Cleanup external repository
       run: |
